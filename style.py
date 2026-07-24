@@ -69,7 +69,8 @@ def inject_base(page_title: str, page_icon: str = "🩺"):
                 letter-spacing: -0.01em;
             }}
 
-            #MainMenu, footer, header {{visibility: hidden;}}
+            #MainMenu, footer {{visibility: hidden;}}
+[data-testid="stHeader"] {{background-color: {COLOR_PRIMARY_DARK};}}
 
             section[data-testid="stSidebar"] {{
                 background-color: var(--primary-dark);
